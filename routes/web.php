@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\HotelsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('hotels',[Controller::class,'getHotels']);
-Route::get('hotels/details/{hotel_name}',[Controller::class,'getHotelDetails']);
+Route::get('/',[HotelsController::class,'getHotels']);
+
+Route::get('hotels/available',[HotelsController::class,'getAvailableHotels']);
+
+Route::get('hotels/details/{hotel_name}',[HotelsController::class,'getHotelDetails']);
 
 
 Auth::routes();

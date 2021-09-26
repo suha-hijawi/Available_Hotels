@@ -34,12 +34,9 @@
             <div id="users">
 
                 <div class="container">
-                    <div class="row">
+                    <div class="row mt-5 mb-5 pr-5 pl-5 ml-2 mr-2">
                         <div class="col-md-12">
-
-                            <form class="form-inline" method="GET" action="{{url('/hotels')}}">
-
-
+                            <form class="form-inline" method="GET" action="{{url('/')}}">
                                 <div class="col-xs-6">
                                     <h5>From Date <span class="text-danger"></span></h5>
                                     <div class="controls">
@@ -91,16 +88,26 @@
                                     </button>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="row float-left">
+                        <div class="col-lg-12">
+                                <a target="_blank" href="{{url('/hotels/available')}}"
+                                   class="btn btn-outline-primary">
+                                    Get Available in JSON format
+                                </a>
+                        </div>
+                    </div>
+                    <div class="row float-right">
+                        <div class="col-lg-12">
                             @if(Request::route('hotel_name'))
-                                <div class="col-xs-6">
-                                    <a href="{{url('/hotels')}}" class="btn btn-outline-primary mt-4 ml-2 mr-2">Back to
+                                    <a href="{{url('/')}}" class="btn btn-outline-primary">Back to
                                         list
                                     </a>
-                                </div>
                             @endif
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row clearfix "style="clear: both">
                         <div class="col-md-12">
                             <h5 class="m-4 text-black-50 text-center">Table of Content</h5>
                             @if(!Request::route('hotel_name'))
