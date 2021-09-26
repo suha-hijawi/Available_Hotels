@@ -1,46 +1,50 @@
-[{
-                 "fromDate":"Conference",
-                 "toDate":"Conference",
-                 "title":"Hyatt Regency Hotel",
-                 "city": "Calgary Alberta , Canada",
-                 "numberOfAdults": 3,
-       "amenities": "Lorem ipsum, dolor sit amet...",
-        "fare": 2.5,
-        "rate": 5,
-        "provider":"Best Hotels",
-         "provider_city":"amman"
-    }, {
-        "fromDate":"Conference",
-                        "toDate":"Conference",
-        "title":"Movenpick Regency Hotel",
-        "city": "Calgary Alberta , Canada",
-        "numberOfAdults": 30,
-          "rate": 4,
-        "amenities": "Lorem ipsum, dolor sit amet...",
-      "fare": 2.5,
-        "provider":"Best Hotels",
-        "provider_city":"amman"
-    },{
-  "fromDate":"Conference",
-                  "toDate":"Conference",
-         "title": "International Conference",
-          "city": "Calgary Alberta , Canada",
-          "numberOfAdults": 1,
-          "rate": 3,
-         "amenities": "Lorem ipsum, dolor sit amet...",
-         "fare": 2.5,
-         "provider":"Crazy Hotels",
-         "provider_city":"zarqa"
-    }, {
-        "fromDate":"Conference",
-                        "toDate":"Conference",
-              "title": "  crazy Conference",
-              "city": "Calgary Alberta , Canada",
-             "numberOfAdults": 4,
-             "rate": 2,
-            "amenities": "Lorem ipsum, dolor sit amet...",
-              "fare": 2.5,
-                "provider":"Crazy Hotels",
-       "provider_city":"salt"
-    }]
-
+[
+   {
+      "fromDate":"2021-09-22",
+      "toDate":"2021-09-25",
+      "title":"Hyatt Regency Hotel",
+      "city":"Calgary Alberta , Canada",
+      "numberOfAdults":3,
+      "amenities":"Lorem ipsum, dolor sit amet...",
+      "fare":2.5,
+      "rate":5,
+      "provider":"Best Hotels",
+      "provider_city":"amman"
+   },
+   {
+      "fromDate":"2021-09-22",
+      "toDate":"2021-09-25",
+      "title":"Movenpick Regency Hotel",
+      "city":"Calgary Alberta , Canada",
+      "numberOfAdults":30,
+      "rate":4,
+      "amenities":"Lorem ipsum, dolor sit amet...",
+      "fare":2.5,
+      "provider":"Best Hotels",
+      "provider_city":"amman"
+   },
+   {
+      "fromDate":"2021-09-22",
+      "toDate":"2021-09-25",
+      "title":"International Conference",
+      "city":"Calgary Alberta , Canada",
+      "numberOfAdults":1,
+      "rate":3,
+      "amenities":"Lorem ipsum, dolor sit amet...",
+      "fare":2.5,
+      "provider":"Crazy Hotels",
+      "provider_city":"zarqa"
+   },
+   {
+      "fromDate":"2021-09-22",
+      "toDate":"2021-09-25",
+      "title":"  crazy Conference",
+      "city":"Calgary Alberta , Canada",
+      "numberOfAdults":4,
+      "rate":2,
+      "amenities":"Lorem ipsum, dolor sit amet...",
+      "fare":2.5,
+      "provider":"Crazy Hotels",
+      "provider_city":"salt"
+   }
+]
